@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="site.css" />
+		<title>Circle of 5ths Survey</title>
+	</head>
+	<body>
+		<header>
+			<h1>Survey about Music!</h1>
+		</header>
+		<nav>
+			<a href="index.html">Back to Home</a>
+			<a href="Pages/Contents.html">Table of Contents</a>
+		</nav>
+		<p>Please take the quick minute to take this survey!</p>
+
+		<div id="surveyHolder">
+			<form method="GET" action="">
+				<div>
+					<label for="fullName">Full Name:</label><br />
+					<input
+						type="text"
+						id="fullName"
+						name="fullName"
+						placeholder="Full Name"
+					/>
+				</div>
+				<br />
+				<div>
+					<label for="email">Email:</label>
+					<br />
+					<input
+						type="email"
+						id="email"
+						name="email"
+						placeholder="email@email.com"
+					/>
+				</div>
+				<br />
+				<div>
+					<label for="favKey"
+						>What is your favorite key to play in?</label
+					><br />
+					<select name="favKey" id="favKey">
+						<option value="C">Key of C</option>
+						<option value="G">Key of G</option>
+						<option value="D">Key of D</option>
+						<option value="A">Key of A</option>
+						<option value="E">Key of E</option>
+						<option value="B">Key of B</option>
+						<option value="Gb">Key of Gb</option>
+						<option value="Db">Key of Db</option>
+						<option value="Ab">Key of Ab</option>
+						<option value="Eb">Key of Eb</option>
+						<option value="Bb">Key of Bb</option>
+						<option value="F">Key of F</option>
+					</select>
+				</div>
+				<div>
+					<p>Are you comfortable playing in all of the Keys?</p>
+					<input
+						type="radio"
+						id="comfortYes"
+						name="comfort"
+						value="Yes"
+					/>
+					<label for="comfortYes">Yes!</label>
+					<br />
+					<input
+						type="radio"
+						id="comfortNo"
+						name="comfort"
+						value="No"
+					/>
+					<label for="comfortYes">No...</label>
+				</div>
+				<br />
+				<div>
+					<label for="dateStarted"
+						>What Date did you start music?</label
+					>
+					<br />
+					<input type="date" name="startDate" id="startDate" />
+				</div>
+				<br />
+				<div>
+					<label for="other">Do you have any other comments?</label>
+					<br />
+					<textarea
+						id="other"
+						name="other"
+						rows="4"
+						cols="50"
+						placeholder="Write your response here..."
+					></textarea>
+				</div>
+				<br />
+				<div>
+					<input type="submit" value="Submit" />
+					<input type="reset" value="Reset" />
+				</div>
+			</form>
+		</div>
+	</body>
+	<script></script>
+</html>
